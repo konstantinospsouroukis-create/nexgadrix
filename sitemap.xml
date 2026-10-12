@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/kategorien/smart-home.html</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/kategorien/laden-energie.html</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/kategorien/ki-gadgets.html</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/kategorien/mobile-technik.html</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/ratgeber/smart-home-einstieg.html</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/ratgeber/usb-c-ladegeraete.html</loc></url>
+  <url><loc>https://nexgadrix.konstantinospsouroukis.workers.dev/ratgeber/ki-gadgets.html</loc></url>
 </urlset>
