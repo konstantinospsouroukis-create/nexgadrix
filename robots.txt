@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nexgadrix.konstantinospsouroukis.workers.dev/sitemap.xml
+Sitemap: https://nexgadrix.win/sitemap.xml
