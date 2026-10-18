@@ -5,6 +5,8 @@
       ['Smart Home für Einsteiger','/ratgeber/smart-home-einstieg.html'],
       ['Matter, Thread und Zigbee','/ratgeber/matter-thread-zigbee.html'],
       ['Smarte Steckdosen','/ratgeber/smarte-steckdosen.html'],
+      ['Smarte Heizkörperthermostate','/ratgeber/heizkoerperthermostate-smart.html'],
+      ['Außenkamera kaufen','/ratgeber/ueberwachungskamera-aussen.html'],
       ['Stromkosten berechnen','/ratgeber/stromkosten-berechnen.html'],
       ['Powerbank kaufen','/ratgeber/powerbank-kaufen.html'],
       ['Powerbank im Flugzeug','/ratgeber/powerbank-im-flugzeug.html'],
