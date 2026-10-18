@@ -29,3 +29,15 @@
 .nx-crumbs a:hover{text-decoration:underline}
 .nx-crumbs span{margin:0 6px;opacity:.6}
 @media(max-width:560px){.nx-menubtn{padding:8px 13px;font-size:13px}}
+
+.nx-shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:26px 0 18px}
+.nx-card{display:flex;flex-direction:column;border:1px solid #29445f;background:#10243c;border-radius:18px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .15s,border-color .15s}
+.nx-card:hover{transform:translateY(-3px);border-color:#52d8f0}
+.nx-img{display:block;background:#fff;aspect-ratio:4/3}
+.nx-img img{width:100%;height:100%;object-fit:contain;padding:12px;display:block}
+.nx-body{display:flex;flex-direction:column;gap:5px;padding:16px 18px 18px}
+.nx-body small{color:#52d8f0;font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.nx-body strong{font-size:17px;line-height:1.3;color:#fff}
+.nx-body em{font-style:normal;font-weight:800;color:#ffc90e;font-size:16px}
+.nx-body b{margin-top:4px;color:#62def5;font-size:14px}
+@media(max-width:900px){.nx-shop-grid{grid-template-columns:repeat(2,1fr);gap:12px}.nx-body{padding:12px 13px 14px}.nx-body strong{font-size:15px}}
