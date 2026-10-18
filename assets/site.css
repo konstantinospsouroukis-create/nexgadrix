@@ -1,0 +1,31 @@
+.nx-menubtn{display:inline-flex;align-items:center;gap:8px;margin-left:10px;padding:9px 16px;border-radius:999px;border:1px solid #0e7490;background:#0e7490;color:#fff;font:700 14px/1.2 system-ui,sans-serif;cursor:pointer}
+.nx-menubtn:hover{background:#155e75}
+.nx-ov{position:fixed;inset:0;z-index:9999;background:rgba(8,19,38,.55);display:none}
+.nx-ov.open{display:block}
+.nx-panel{position:absolute;top:0;right:0;bottom:0;width:min(440px,100%);background:#fff;color:#0b1a2e;overflow-y:auto;font:16px/1.4 system-ui,sans-serif;box-shadow:-8px 0 30px rgba(0,0,0,.25)}
+.nx-head{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:#f3f6fa;position:sticky;top:0;z-index:1}
+.nx-head b{font-size:20px;letter-spacing:.5px}
+.nx-close{border:0;background:none;font-size:30px;line-height:1;cursor:pointer;color:#0b1a2e;padding:0 6px}
+.nx-panel details{border-bottom:1px solid rgba(0,0,0,.08)}
+.nx-panel summary{list-style:none;cursor:pointer;padding:14px 18px;font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.nx-panel summary::-webkit-details-marker{display:none}
+.nx-panel summary::after{content:"⌄";font-size:22px;transition:transform .2s}
+.nx-panel details[open] summary::after{transform:rotate(180deg)}
+.nx-s1 summary{background:#2fb0ae;color:#04201f}
+.nx-s2 summary{background:#f7a12b;color:#2a1700}
+.nx-s3 summary{background:#ffc90e;color:#2a2100}
+.nx-s4 summary{background:#d4d7dc;color:#1c2430}
+.nx-panel ul{list-style:none;margin:0;padding:6px 0 10px}
+.nx-panel li a{display:block;padding:10px 20px;color:#0b1a2e;text-decoration:none;font-size:17px}
+.nx-panel li a:hover,.nx-panel li a:focus{background:#ecfeff;color:#0e7490}
+.nx-service{display:grid;grid-template-columns:1fr 1fr;gap:2px 8px;padding:6px 10px 12px}
+.nx-service a{display:flex;gap:8px;align-items:center;padding:12px 10px;color:#0b1a2e;text-decoration:none;font-size:17px;border-radius:8px}
+.nx-service a:hover{background:#ecfeff;color:#0e7490}
+.nx-font{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 18px;background:#e9edf3}
+.nx-font button{width:46px;height:40px;border-radius:8px;border:0;background:#a9b2bf;color:#fff;font-size:26px;font-weight:700;cursor:pointer}
+.nx-font span{font-weight:700;color:#4a5668}
+.nx-crumbs{font:15px/1.5 system-ui,sans-serif;color:#a9bdd0;margin:0 0 14px}
+.nx-crumbs a{color:#62def5;text-decoration:none}
+.nx-crumbs a:hover{text-decoration:underline}
+.nx-crumbs span{margin:0 6px;opacity:.6}
+@media(max-width:560px){.nx-menubtn{padding:8px 13px;font-size:13px}}
