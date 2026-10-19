@@ -41,3 +41,5 @@
 .nx-body em{font-style:normal;font-weight:800;color:#ffc90e;font-size:16px}
 .nx-body b{margin-top:4px;color:#62def5;font-size:14px}
 @media(max-width:900px){.nx-shop-grid{grid-template-columns:repeat(2,1fr);gap:12px}.nx-body{padding:12px 13px 14px}.nx-body strong{font-size:15px}}
+
+.nx-body p{margin:2px 0 0;color:#c9d6e4;font-size:14px;line-height:1.45}
