@@ -43,3 +43,5 @@
 @media(max-width:900px){.nx-shop-grid{grid-template-columns:repeat(2,1fr);gap:12px}.nx-body{padding:12px 13px 14px}.nx-body strong{font-size:15px}}
 
 .nx-body p{margin:2px 0 0;color:#c9d6e4;font-size:14px;line-height:1.45}
+
+.nx-big-grid{grid-template-columns:repeat(3,1fr);gap:22px}.nx-big .nx-img{height:300px}.nx-big .nx-img img{width:100%;height:100%;object-fit:contain;background:#fff;padding:12px}.nx-big .nx-body strong{font-size:19px}.nx-top .actions{margin-top:8px}@media(max-width:900px){.nx-big-grid{grid-template-columns:1fr}.nx-big .nx-img{height:260px}}
