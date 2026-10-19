@@ -52,3 +52,4 @@
 .header .nav{flex-direction:row;flex-wrap:wrap;align-items:center;gap:14px 20px;padding:10px 0}.header .links{flex:1 1 auto;justify-content:center;gap:10px 20px}.header .links a{white-space:nowrap}.header .langbtn{margin-left:auto}
 @media(max-width:900px){.nx-trust-row{grid-template-columns:repeat(2,1fr)}.nx-deal-grid{grid-template-columns:repeat(2,1fr)}.header .links{justify-content:flex-start}}
 @media(max-width:520px){.nx-deal-grid{grid-template-columns:1fr}.nx-trust-row{grid-template-columns:1fr}.nx-announce{font-size:13px}}
+@media(min-width:901px){.header .nav{flex-wrap:nowrap}.header .links{flex:1 1 0;min-width:0;gap:6px 16px;font-size:13px}.header .nx-menubtn,.header .langbtn{flex:none;margin-left:0}}
