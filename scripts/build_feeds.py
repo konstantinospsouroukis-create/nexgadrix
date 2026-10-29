@@ -23,7 +23,7 @@ for f in sorted(glob.glob('ratgeber/*.html')):
     s=open(f,encoding='utf-8').read()
     h=re.sub('<[^>]+>','',re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S).group(1)).strip()
     d=re.search(r'<meta name="description" content="(.*?)"',s).group(1)
-    its.append((pub('ratgeber/'+os.path.basename(f),'2026-10-13'),item(h,B+'/'+f,d,'ratgeber/'+os.path.basename(f),'2026-10-13')))
+    its.append((pub('ratgeber/'+os.path.basename(f),'2026-10-13'),item(h,B+'/'+f[:-5],d,'ratgeber/'+os.path.basename(f),'2026-10-13')))
 its=[i for _,i in its]
 open('feed.xml','w',encoding='utf-8').write(feed('NEXGADRIX Ratgeber',B+'/ratgeber/','Technik-Ratgeber zu Smart Home, Laden & Energie und KI-Gadgets.',B+'/feed.xml',its))
 # Produkte
