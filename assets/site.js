@@ -2,28 +2,29 @@
   var M=[
     {c:'nx-s1',t:'Ratgeber',open:1,l:[
       ['Alle Ratgeber','/ratgeber/'],
-      ['Smart Home für Einsteiger','/ratgeber/smart-home-einstieg.html'],
-      ['Matter, Thread und Zigbee','/ratgeber/matter-thread-zigbee.html'],
-      ['Smarte Steckdosen','/ratgeber/smarte-steckdosen.html'],
-      ['Smarte Heizkörperthermostate','/ratgeber/heizkoerperthermostate-smart.html'],
-      ['Außenkamera kaufen','/ratgeber/ueberwachungskamera-aussen.html'],
-      ['Stromkosten berechnen','/ratgeber/stromkosten-berechnen.html'],
-      ['Powerbank kaufen','/ratgeber/powerbank-kaufen.html'],
-      ['Powerbank im Flugzeug','/ratgeber/powerbank-im-flugzeug.html'],
-      ['USB-C-Ladegeräte','/ratgeber/usb-c-ladegeraete.html'],
-      ['USB-C-Kabel erklärt','/ratgeber/usb-c-kabel-erklaert.html'],
-      ['Innenkamera kaufen','/ratgeber/innenkamera-kaufen.html'],
-      ['Alexa-Lautsprecher kaufen','/ratgeber/alexa-lautsprecher-kaufen.html'],
-      ['Smarte IR-Fernbedienung','/ratgeber/ir-fernbedienung-smart-home.html'],
-      ['KI-Gadgets im Alltag','/ratgeber/ki-gadgets.html']]},
+      ['Smart Home für Einsteiger','/ratgeber/smart-home-einstieg'],
+      ['Matter, Thread und Zigbee','/ratgeber/matter-thread-zigbee'],
+      ['Smarte Steckdosen','/ratgeber/smarte-steckdosen'],
+      ['Smarte Heizkörperthermostate','/ratgeber/heizkoerperthermostate-smart'],
+      ['Außenkamera kaufen','/ratgeber/ueberwachungskamera-aussen'],
+      ['Stromkosten berechnen','/ratgeber/stromkosten-berechnen'],
+      ['Powerstation kaufen','/ratgeber/powerstation-kaufen'],
+      ['Powerbank kaufen','/ratgeber/powerbank-kaufen'],
+      ['Powerbank im Flugzeug','/ratgeber/powerbank-im-flugzeug'],
+      ['USB-C-Ladegeräte','/ratgeber/usb-c-ladegeraete'],
+      ['USB-C-Kabel erklärt','/ratgeber/usb-c-kabel-erklaert'],
+      ['Innenkamera kaufen','/ratgeber/innenkamera-kaufen'],
+      ['Alexa-Lautsprecher kaufen','/ratgeber/alexa-lautsprecher-kaufen'],
+      ['Smarte IR-Fernbedienung','/ratgeber/ir-fernbedienung-smart-home'],
+      ['KI-Gadgets im Alltag','/ratgeber/ki-gadgets']]},
     {c:'nx-s2',t:'Kategorien',l:[
-      ['Smart Home','/kategorien/smart-home.html'],
-      ['Laden & Energie','/kategorien/laden-energie.html'],
-      ['KI-Gadgets','/kategorien/ki-gadgets.html'],
-      ['Mobile Technik','/kategorien/mobile-technik.html']]},
+      ['Smart Home','/kategorien/smart-home'],
+      ['Laden & Energie','/kategorien/laden-energie'],
+      ['KI-Gadgets','/kategorien/ki-gadgets'],
+      ['Mobile Technik','/kategorien/mobile-technik']]},
     {c:'nx-s3',t:'Produkte',l:[['Produktfinder (9 Produkte)','/produkte/']]}
   ];
-  var S=[['📰','RSS-Feed','/feed.xml'],['✉️','Newsletter','/newsletter.html'],['❓','Häufige Fragen','/faq.html'],['💬','Kontakt','/kontakt.html'],['🔎','Transparenz','/redaktion.html'],['ℹ️','Über uns','/ueber-uns.html']];
+  var S=[['📰','RSS-Feed','/feed.xml'],['✉️','Newsletter','/newsletter'],['❓','Häufige Fragen','/faq'],['💬','Kontakt','/kontakt'],['🔎','Transparenz','/redaktion'],['ℹ️','Über uns','/ueber-uns']];
   function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e}
   function build(){
     var ov=el('div','nx-ov');ov.setAttribute('role','dialog');ov.setAttribute('aria-modal','true');ov.setAttribute('aria-label','Menü');
