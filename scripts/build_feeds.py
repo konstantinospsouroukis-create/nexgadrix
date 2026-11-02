@@ -29,7 +29,7 @@ open('feed.xml','w',encoding='utf-8').write(feed('NEXGADRIX Ratgeber',B+'/ratgeb
 # Produkte
 s=open('produkte/index.html',encoding='utf-8').read()
 its=[]
-for a in re.finditer(r'<article class="product" id="([^"]+)".*?</article>',s,re.S):
+for a in re.finditer(r'<article class="product"[^>]*\bid="([^"]+)"[^>]*>.*?</article>',s,re.S):
     pid,blk=a.group(1),a.group(0)
     name=re.sub('<[^>]+>','',re.search(r'<h2>(.*?)</h2>',blk,re.S).group(1)).strip()
     typ=re.sub('<[^>]+>','',re.search(r'<div class="type">(.*?)</div>',blk,re.S).group(1)).strip()
