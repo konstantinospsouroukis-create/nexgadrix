@@ -11,6 +11,7 @@
       ['Powerstation kaufen','/ratgeber/powerstation-kaufen'],
       ['Powerbank kaufen','/ratgeber/powerbank-kaufen'],
       ['Powerbank im Flugzeug','/ratgeber/powerbank-im-flugzeug'],
+      ['Powerbank-Regeln je Airline','/ratgeber/powerbank-airlines'],
       ['USB-C-Ladegeräte','/ratgeber/usb-c-ladegeraete'],
       ['USB-C-Kabel erklärt','/ratgeber/usb-c-kabel-erklaert'],
       ['Innenkamera kaufen','/ratgeber/innenkamera-kaufen'],
@@ -22,7 +23,7 @@
       ['Laden & Energie','/kategorien/laden-energie'],
       ['KI-Gadgets','/kategorien/ki-gadgets'],
       ['Mobile Technik','/kategorien/mobile-technik']]},
-    {c:'nx-s3',t:'Produkte',l:[['Produktfinder (9 Produkte)','/produkte/']]}
+    {c:'nx-s3',t:'Produkte',l:[['Produktfinder (51 Produkte)','/produkte/'],['Rabattcodes','/rabattcodes']]}
   ];
   var S=[['📰','RSS-Feed','/feed.xml'],['✉️','Newsletter','/newsletter'],['❓','Häufige Fragen','/faq'],['💬','Kontakt','/kontakt'],['🔎','Transparenz','/redaktion'],['ℹ️','Über uns','/ueber-uns']];
   function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e}
