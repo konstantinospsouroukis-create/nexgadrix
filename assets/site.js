@@ -61,3 +61,28 @@
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+/* Microsoft Clarity – wird erst nach Einwilligung geladen */
+(function(){
+  var ID='z8ayjdw5p6',K='nx-consent-clarity';
+  var el=(document.documentElement.lang||'').indexOf('el')===0;
+  var T=el?{t:'Χρησιμοποιούμε το Microsoft Clarity (cookies) για να καταλάβουμε πώς χρησιμοποιείται η σελίδα και να τη βελτιώσουμε. Συμφωνείς;',a:'Αποδοχή',n:'Απόρριψη',l:'Απόρρητο'}
+           :{t:'Wir möchten Microsoft Clarity (Cookies) nutzen, um zu verstehen, wie unsere Seite verwendet wird, und sie zu verbessern. Einverstanden?',a:'Akzeptieren',n:'Ablehnen',l:'Datenschutz'};
+  function get(){try{return localStorage.getItem(K)}catch(e){return null}}
+  function set(v){try{localStorage.setItem(K,v)}catch(e){}}
+  function load(){
+    if(window.clarity)return;
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",ID);
+    window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'});
+  }
+  function banner(){
+    if(document.getElementById('nx-cb'))return;
+    var b=document.createElement('div');b.id='nx-cb';b.setAttribute('role','dialog');b.setAttribute('aria-label',T.l);
+    b.style.cssText='position:fixed;left:12px;right:12px;bottom:12px;z-index:9999;max-width:640px;margin:0 auto;background:#111827;color:#fff;border-radius:12px;padding:14px 16px;box-shadow:0 6px 24px rgba(0,0,0,.3);font:14px/1.45 system-ui,-apple-system,sans-serif';
+    b.innerHTML='<p style="margin:0 0 10px">'+T.t+' <a href="/datenschutz#clarity" style="color:#93c5fd">'+T.l+'</a></p><div style="display:flex;gap:8px;flex-wrap:wrap"><button type="button" data-v="no" style="flex:1;min-width:120px;padding:9px;border-radius:8px;border:1px solid #fff;background:transparent;color:#fff;font:inherit;cursor:pointer">'+T.n+'</button><button type="button" data-v="yes" style="flex:1;min-width:120px;padding:9px;border-radius:8px;border:1px solid #fff;background:#fff;color:#111827;font:inherit;cursor:pointer">'+T.a+'</button></div>';
+    b.addEventListener('click',function(e){var x=e.target.closest('button');if(!x)return;set(x.dataset.v);b.remove();if(x.dataset.v==='yes')load();else if(window.clarity)window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'denied'})});
+    document.body.appendChild(b);
+  }
+  window.nxCookieSettings=function(){try{localStorage.removeItem(K)}catch(e){}banner()};
+  function init(){var v=get();if(v==='yes')load();else if(v!=='no')banner()}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
