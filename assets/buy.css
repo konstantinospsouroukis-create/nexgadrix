@@ -1,0 +1,38 @@
+/* NEXGADRIX Kauf-Hilfen */
+.nx-copy{margin-left:8px;border:1px solid #62dff4;background:transparent;color:#62dff4;border-radius:8px;padding:4px 10px;font:inherit;font-size:.85em;font-weight:700;cursor:pointer;vertical-align:middle}
+.nx-copy:hover{background:#62dff4;color:#052238}.nx-copy.ok{background:#2fbf71;border-color:#2fbf71;color:#fff}
+.nx-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:auto;padding-top:10px}
+.nx-buy{display:inline-block;background:#ffc93c;color:#1b1300!important;font-weight:800;text-decoration:none!important;border-radius:10px;padding:10px 14px;line-height:1.2}
+.nx-buy:hover{background:#ffd866}
+.nx-more{color:#7fe3f5;font-weight:700;text-decoration:none;padding:10px 4px}
+.nx-more:hover{text-decoration:underline}
+.nx-card .nx-body{display:flex;flex-direction:column;flex:1}
+.nx-card strong a{color:inherit;text-decoration:none}.nx-card strong a:hover{text-decoration:underline}
+.nx-imglink{display:block}
+.nx-picks-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:18px}
+.nx-pick{display:flex;flex-direction:column;border:1px solid #29445f;background:#10243c;color:#eaf3ff;border-radius:18px;padding:18px}
+.nx-pick small{color:#62dff4;font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.75rem}
+.nx-pick h3{margin:6px 0 2px;font-size:1.15rem}
+.nx-pick p{margin:4px 0;color:#c9d8ea}
+.nx-pick .nx-pick-what{color:#9fb6cf;font-size:.92rem}
+.nx-pick .nx-pick-price{color:#ffc93c;font-weight:800;font-size:1.1rem}
+.nx-pick .nx-pick-price s{color:#8fa3b8;font-weight:400;font-size:.85em}
+.nx-pick .nx-pick-code{font-size:.9rem}
+.nx-pick code{background:#0b1a2e;border:1px dashed #62dff4;border-radius:6px;padding:2px 6px;color:#fff}
+.nx-pick .nx-buy{margin-top:auto;text-align:center}
+.nx-pick .nx-more{text-align:center}
+.nx-note{font-size:.8rem;opacity:.75;margin-top:12px}
+/* Produktseiten: Code direkt über dem Kaufbutton */
+.p-hero .code{margin:14px 0 4px;padding:12px 14px;border:1px dashed #62dff4;border-radius:12px;background:rgba(98,223,244,.07);line-height:1.6}
+.p-hero .code code{font-weight:800;font-size:1.05em}
+a.affiliate{display:block;text-align:center;font-size:1.1rem;padding:15px 18px!important;background:#ffc93c!important;color:#1b1300!important}
+a.affiliate:hover{background:#ffd866!important}
+.nx-sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;align-items:center;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:#0f2139;border-top:1px solid #29445f;box-shadow:0 -6px 20px rgba(0,0,0,.35);transform:translateY(110%);transition:transform .2s}
+.nx-sticky.show{transform:none}
+.nx-sticky-t{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+.nx-sticky-t b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#eaf3ff;font-size:.92rem}
+.nx-sticky-t span{color:#ffc93c;font-weight:800;font-size:.9rem}
+.nx-sticky-btn{background:#ffc93c;color:#1b1300!important;font-weight:800;text-decoration:none!important;border-radius:10px;padding:11px 14px;white-space:nowrap}
+.nx-sticky small{position:absolute;top:2px;right:8px;font-size:.6rem;color:#8fa3b8}
+body.has-nx-sticky{padding-bottom:72px}
+@media(min-width:900px){.nx-sticky{display:none}body.has-nx-sticky{padding-bottom:0}}
