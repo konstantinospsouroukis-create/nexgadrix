@@ -36,3 +36,21 @@ a.affiliate:hover{background:#ffd866!important}
 .nx-sticky small{position:absolute;top:2px;right:8px;font-size:.6rem;color:#8fa3b8}
 body.has-nx-sticky{padding-bottom:72px}
 @media(min-width:900px){.nx-sticky{display:none}body.has-nx-sticky{padding-bottom:0}}
+/* Black Friday 2026 */
+.nx-bf{background:linear-gradient(135deg,#1a0d22 0%,#0b1a30 55%,#081326 100%);border-top:1px solid #4a2a4f;border-bottom:1px solid #29445f}
+.nx-bf-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
+.nx-bf .kicker{color:#ffc93c}
+.nx-bf-badge{flex:0 0 auto;background:#ffc93c;color:#1b1300;border-radius:16px;padding:12px 16px;text-align:center;transform:rotate(2deg);box-shadow:0 10px 24px rgba(255,201,60,.18)}
+.nx-bf-badge b{display:block;font-size:1.5rem;line-height:1.1}
+.nx-bf-badge span{font-size:.8rem;font-weight:700}
+.nx-bf-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:18px}
+.nx-bf-strip a{display:block;text-decoration:none;border:1px dashed #ffc93c;border-radius:14px;padding:12px 14px;background:rgba(255,201,60,.06);color:#eaf3ff}
+.nx-bf-strip a:hover{background:rgba(255,201,60,.13)}
+.nx-bf-strip b{display:block;color:#ffc93c}
+.nx-bf-strip span{font-size:.88rem;color:#c9d8ea}
+.nx-bf-card{border-color:#5a3b2a}
+.nx-bf-note{font-size:.85rem;margin-top:14px}
+@media(max-width:640px){.nx-bf-head{flex-direction:column}.nx-bf-badge{transform:none}}
+.nx-bf h2{color:#fff}
+.nx-bf .section-desc{color:#c9d8ea}
+.nx-bf .nx-bf-note a{color:#7fe3f5}
