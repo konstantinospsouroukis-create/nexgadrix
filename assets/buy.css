@@ -54,3 +54,5 @@ body.has-nx-sticky{padding-bottom:72px}
 .nx-bf h2{color:#fff}
 .nx-bf .section-desc{color:#c9d8ea}
 .nx-bf .nx-bf-note a{color:#7fe3f5}
+.nx-bf .nx-bf-sub{color:#fff;margin:30px 0 4px;font-size:1.25rem}
+.nx-bf .section-desc code{background:#0b1a2e;border:1px dashed #62dff4;border-radius:6px;padding:2px 6px;color:#fff}
