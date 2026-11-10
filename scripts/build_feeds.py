@@ -3,7 +3,7 @@
 Neue Einträge bekommen beim ersten Lauf das heutige Datum (gespeichert in scripts/feed-dates.json).
 Aufruf im Repo-Root: python3 scripts/build_feeds.py"""
 import re,glob,os,json,html,datetime,email.utils
-B='https://nexgadrix.win'
+B='https://nexgadrix.de'
 root=os.path.dirname(os.path.dirname(os.path.abspath(__file__)));os.chdir(root)
 DF='scripts/feed-dates.json'
 dates=json.load(open(DF)) if os.path.exists(DF) else {}

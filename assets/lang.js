@@ -1,6 +1,6 @@
 (function(){
   try{
-    var host=location.hostname, orig="https://nexgadrix.win";
+    var host=location.hostname, orig="https://nexgadrix.de";
     var translated=/\.translate\.goog$/.test(host);
     var path=location.pathname||"/";
     var a=document.createElement("a");
@@ -11,7 +11,7 @@
       a.title="Zurück zur deutschen Originalseite";
       a.setAttribute("hreflang","de");
     }else{
-      a.href="https://nexgadrix-win.translate.goog"+path+"?_x_tr_sl=de&_x_tr_tl=el&_x_tr_hl=el&_x_tr_pto=wapp"+(location.hash||"");
+      a.href="https://nexgadrix-de.translate.goog"+path+"?_x_tr_sl=de&_x_tr_tl=el&_x_tr_hl=el&_x_tr_pto=wapp"+(location.hash||"");
       a.textContent="🇬🇷 Ελληνικά";
       a.title="Seite auf Griechisch anzeigen (maschinelle Übersetzung durch Google Übersetzer)";
       a.setAttribute("hreflang","el");
